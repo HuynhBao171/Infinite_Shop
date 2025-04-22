@@ -93,7 +93,7 @@ This process will build an optimized version of the application and serve it loc
 ## Contact
 
 For any questions regarding this submission, please contact:
-bqhuynh@gmail.com
+bqhuynh171@gmail.com
 
 ---
 
