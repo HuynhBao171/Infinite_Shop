@@ -1,0 +1,96 @@
+name: infinite_shop
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+
+  # [State - DI] GetX is an extra-light and powerful solution for Flutter.
+  get: ^4.7.2
+
+  # [State Management] Supercharge the state-management in your Dart apps
+  # with Transparent Functional Reactive Programming (TFRP).
+  mobx: ^2.5.0
+  flutter_mobx: ^2.3.0
+
+  # [DI] This is a simple Service Locator for Dart and Flutter projects
+  # with some additional goodies highly inspired by Splat
+  get_it: ^8.0.3
+
+  # [ENV] Load environment variables from .env file at runtime
+  flutter_dotenv: ^5.2.1
+
+  # [Localization] Easy and Fast internationalizing and localization your Flutter Apps
+  easy_localization: ^3.0.7+1
+
+  # [Flutter Screen Util] A flutter plugin for adapting screen and font size.
+  flutter_screenutil: ^5.9.3
+
+  # [Animation] A powerful, easy to use and customizable tween library
+  flutter_animate: ^4.5.2
+
+  # [Local Storage] Hive is a lightweight and blazing fast key-value database written in pure Dart.
+  hive_flutter: ^1.1.0
+
+  # [Logger] A simple logging library for Dart and Flutter.
+  talker: ^4.7.2
+
+  # [State Management] A predictable state management library that helps
+  provider: ^6.1.4
+
+  # [Json Serializable] This package is a code generator that simplifies the process of serializing and deserializing JSON in Dart.
+  json_serializable: ^6.9.5
+
+  # [Json Annotation] Provides Dart Build System builders for handling JSON.
+  json_annotation: ^4.9.0
+
+  # [Code Generator] Default build runner tool
+  build_runner: ^2.4.15
+
+  # [Worker Manager] A Flutter plugin to manage background tasks with a neat API
+  worker_manager: ^7.2.3
+
+  # [Dio] A powerful Http client for Dart, which supports Interceptors, Global configuration, FormData, Request Cancellation, File downloading, Timeout etc.
+  dio: ^5.8.0+1
+
+  # [Connectivity] Flutter plugin for discovering the state of the network (WiFi & mobile/cellular) connectivity on Android and iOS.
+  connectivity_plus: ^5.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^5.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: SFPro
+      fonts:
+        - asset: assets/fonts/SFPro.ttf
+    - family: SFMono
+      fonts:
+        - asset: assets/fonts/SFMonoRegular.otf
+  assets:
+    - .env # Environment variables file
