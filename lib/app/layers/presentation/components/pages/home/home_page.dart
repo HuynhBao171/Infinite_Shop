@@ -198,6 +198,9 @@ class HomePage extends StatelessWidget with ControllerProvider<HomeController> {
                     delegate: SliverChildBuilderDelegate((context, index) {
                       final product = products[index];
                       return ProductItem(
+                        key: ValueKey(
+                          product.id,
+                        ), // Added ValueKey for product identity
                         product: product,
                         onTap: () => _onProductTap(context, product),
                         onToggleFavorite: ctrl.toggleFavorite,
